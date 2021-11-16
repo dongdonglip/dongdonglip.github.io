@@ -2,19 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://dongdonglip.github.io/</loc>
+    <lastmod>2021-11-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dongdonglip.github.io/post/</loc>
+    <lastmod>2021-11-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dongdonglip.github.io/post/%E8%8F%9C%E5%8D%95%E6%A0%91%E7%9A%84%E5%AE%9E%E7%8E%B0/</loc>
+    <lastmod>2021-11-16T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://dongdonglip.github.io/about/</loc>
     <lastmod>2019-01-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dongdonglip.github.io/showcase/</loc>
     <lastmod>2019-01-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dongdonglip.github.io/</loc>
-    <lastmod>1986-09-17T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://dongdonglip.github.io/post/hello/</loc>
-    <lastmod>1986-09-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dongdonglip.github.io/post/</loc>
     <lastmod>1986-09-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dongdonglip.github.io/archive/</loc>

@@ -150,6 +150,48 @@
   <div class="posts">
     
       <div class="post on-list">
+        <h1 class="post-title"><a href="https://dongdonglip.github.io/post/%E8%8F%9C%E5%8D%95%E6%A0%91%E7%9A%84%E5%AE%9E%E7%8E%B0/">菜单树</a></h1>
+        <div class="post-meta">
+          
+            <span class="post-date">
+              2021-11-16
+            </span>
+
+            
+          
+          
+            <span class="post-author"
+              >— Written by dongliping</span
+            >
+
+
+          
+        </div>
+
+        
+
+        
+
+        <div class="post-content">
+          
+            
+              业务中有很多时候需要用到菜单树的结构，比如菜单、评论系统等
+ 菜单树的实现分析 1.递归  菜单树的实现最原始的方法就是递归实现
+数据量不是很到大的时候可以采用一次性将数据读取出存到list集合中，然后对该集合进行遍历。
+ /** * 根据父节点的ID获取所有子节点 * * @param list 分类表 * @param parentId 传入的父节点ID * @return String */ public List&lt;Menu&gt; getChildPerms(List&lt;Menu&gt; list, Long parentId) { List&lt;Menu&gt; returnList = new ArrayList&lt;Menu&gt;(); list.stream().forEach(menu -&gt; { // 一、根据传入的某个父节点ID,遍历该父节点的所有子节点 	if (menu.getPId().equals(parentId)) { recursionFn(list, menu); returnList.add(menu); } }); return returnList; } /** * 递归列表 * * @param list * @param t */ private void recursionFn(List&lt;Menu&gt; list, Menu t) { // 得到子节点列表 	List&lt;Menu&gt; childList = getChildList(list, t); t.
+            
+          
+        </div>
+        
+          <div>
+            <a class="read-more button" href="/post/%E8%8F%9C%E5%8D%95%E6%A0%91%E7%9A%84%E5%AE%9E%E7%8E%B0/"
+              >Read more →</a
+            >
+          </div>
+        
+      </div>
+    
+      <div class="post on-list">
         <h1 class="post-title"><a href="https://dongdonglip.github.io/post/hello/">Hello Friend</a></h1>
         <div class="post-meta">
           
